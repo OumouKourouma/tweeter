@@ -1,0 +1,58 @@
+html,body{
+    height:100%;
+    margin:0;
+    padding:0;
+  }
+  body{
+      background-color: #FFFFFF;
+      /*overflow-x: hidden; 
+      overflow-y: hidden;*/ 
+  }
+.title{
+    font-size: 64px !important;
+}
+div a{
+    margin: 12px 8px 0px 8px;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+    color: black;
+}
+div a:hover{
+    margin: 12px 8px 0px 8px;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+    color: black;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bg-img1{
+    background: url("grandeimagetwitter.png");
+    height: 720px;
+}
+h1{
+    font-size: 64px;
+  margin-bottom: 50px;  
+  color: "rgb(15, 20, 25)";
+  font-weight: 700;
+}
+h2{
+    font-size: 36px; font-weight: 700; color: rgb(15, 20, 25);
+}
+.feather-twitter{
+    color: rgb(29, 155, 240);
+    width: 45px;
+    height: 57px;
+}
+.form-control{
+    padding: 2px 10px;
+    width: 320px;
+    height: 44px;
+    border-radius: 20px;
+    margin: 20px;
+}
